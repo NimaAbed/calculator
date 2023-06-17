@@ -18,12 +18,6 @@
     font-size: 60px;
     padding: 20px;
  }
- .keypad{
- 
- }
- .keypad-table{
- 
- }
  .keypad-table tr:first-child .key{
     background-color: #a5a5a5;
  }
