@@ -8,6 +8,10 @@ show.forEach(function(event){
 
 calculate.addEventListener("click",calcu)
 
+document.querySelector(".all-clear").addEventListener("click",function(){
+    display.innerHTML=0
+})
+
 function calcu(){
     display.innerHTML = eval(display.innerHTML)
 }
