@@ -12,6 +12,13 @@ document.querySelector(".all-clear").addEventListener("click",function(){
     display.innerHTML=0
 })
 
+document.querySelector(".clear-last").addEventListener("click",function(){
+    if(display.innerHTML.length == 1){
+        return display.innerHTML = 0
+    }
+    return display.innerHTML = display.innerHTML.substring(0,display.innerHTML.length -1)
+})
+
 function calcu(){
     display.innerHTML = eval(display.innerHTML)
 }
